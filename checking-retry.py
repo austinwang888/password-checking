@@ -1,6 +1,6 @@
 password = 'a123456'
-i = 3
-while True:
+i = 3 # 剩餘機會
+while i > 0:
 	code = input ('please enter your password:')
 	if code == password:
 		print ('enter')
@@ -8,8 +8,7 @@ while True:
 	else:
 		i = i -1
 		print ('密碼錯誤！！還有', i, '次機會')
-		if i == 0:
-			break
+		
 	
 
 
